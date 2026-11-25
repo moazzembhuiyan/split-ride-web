@@ -1,0 +1,1 @@
+Next.js 16.2.6 / React 19.2.4 / TypeScript 5 (strict, bundler resolver) / Tailwind CSS v4 via @tailwindcss/postcss / shadcn/ui (radix-luma style, Hugeicons) / Firebase SDK 12 / MapLibre GL 5 / Zustand 5 state / TanStack React Query 5 / Zod 4 validation / Biome 2 linter+formatter.

@@ -1,0 +1,20 @@
+schema_version: 1
+module_path: ""
+title: Split Ride Monorepo Root Configuration
+scope:
+    - .gitignore
+    - AGENTS.md
+    - API-INTEGRATION.md
+    - CLAUDE.md
+    - README.md
+    - biome.json
+    - bun.lock
+    - check_changes.ps1
+    - components.json
+    - next.config.ts
+    - package-lock.json
+    - postcss.config.mjs
+    - tsconfig.json
+source_files: []
+depends_on: []
+related_to: []

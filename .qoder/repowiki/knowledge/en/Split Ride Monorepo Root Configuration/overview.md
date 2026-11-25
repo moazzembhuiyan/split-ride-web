@@ -1,0 +1,1 @@
+Root configuration scaffold for the Split Ride monorepo, wiring Next.js 16 App Router, shadcn/ui registries, Tailwind v4, Biome linting/formatting, and TypeScript into a single build surface.

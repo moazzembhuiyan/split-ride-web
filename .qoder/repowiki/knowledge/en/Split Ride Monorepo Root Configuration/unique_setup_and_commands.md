@@ -1,0 +1,1 @@
+Package manager-agnostic via npm/yarn/pnpm/bun; `bun.lock` is present but `package-lock.json` also exists. Development: `npm run dev` (or equivalent). Formatting: `npm run format` runs `biome format --write`. Linting: `npm run lint` runs `biome check`. Sharp and unrs-resolver native builds are explicitly ignored/trusted in `ignoreScripts`/`trustedDependencies`.

@@ -1,0 +1,3 @@
+- Absolute imports use the `@/` prefix mapped to `src/` (e.g. `@/components`, `@/lib/utils`, `@/hooks`) as declared in both tsconfig.json and components.json aliases.
+- UI primitives come from shadcn/ui generated under `@/components/ui` and composed with Radix primitives rather than raw Radix usage.
+- Styling follows Tailwind v4 utility-first conventions with CSS variables enabled and the neutral base color, processed through PostCSS via `@tailwindcss/postcss`.
