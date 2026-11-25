@@ -64,24 +64,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 > Use `bun`, not `npm ci`. `bun.lock` is the live lockfile and `package-lock.json` is out of date.
 
-### Environment variables
 
-Create a `.env` file in the project root:
-
-```env
-NEXT_PUBLIC_SERVER_URL=           # backend base URL, no trailing slash
-NEXT_PUBLIC_SOCKET_URL=
-NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
-NEXT_PUBLIC_FIREBASE_API_KEY=
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
-NEXT_PUBLIC_FIREBASE_APP_ID=
-NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=
-NEXT_PUBLIC_FIREBASE_VAPID_KEY=
-```
 
 `public/firebase-messaging-sw.js` cannot read env vars, so its Firebase config is hardcoded. Keep it in sync with `.env`.
 
